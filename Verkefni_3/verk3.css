@@ -1,0 +1,183 @@
+body{
+	line-height: 1.5;
+	background: #FFF;
+	color: black;
+	font-family: sans-serif,serif;
+}
+
+footer{
+	width: 100%;
+	background-color: purple;
+}
+
+nav{
+	
+}
+
+nav ul{
+	list-style: none;
+}
+
+.body{
+	margin: auto;
+}
+
+.flexin{
+	display: flex;
+	flex-direction: column;
+}
+
+.mainHeader{
+	width: 100%;
+	background-color: orange;
+}
+
+.mainContent{
+	width: 100%;
+	background-color: yellow;
+}
+
+.firstSide{
+	width: 100%;
+	background-color: red;
+}
+
+.secondSide{
+	width: 100%;
+	background-color: green;
+}
+
+.navigation nav{
+	background-color: #FFF;
+}
+
+.button1{
+	width: 100%;
+	background-color: black;
+}
+
+
+
+
+@media screen and (min-width: 0em) and (max-width: 30em){
+
+
+	.mainHeader{
+		width: 100%;
+		background-color: black;
+	}
+
+	.mainContent{
+		width: 100%;
+	}
+
+	.firstSide{
+		width: 100%;
+
+	}
+
+	.secondSide{
+		width: 100%;
+
+	}
+
+	footer{
+		width: 100%;
+	}
+
+	.navigation nav ul li{
+		width: 100%;
+		text-align: center;
+	}
+
+	.button1{
+		width: 100%;
+		background-color: black;
+	}
+
+}
+
+@media screen and (min-width: 30em) and (max-width: 48em){
+
+	.mainHeader{
+		width: 100%;
+		background-color: black;
+	}
+
+	.mainContent{
+		width: 100%;
+	}
+
+	.firstSide{
+		width: 50%;
+		flex-wrap: wrap;
+	}
+
+	.secondSide{
+		width: 50%;
+		flex-wrap: wrap;
+
+	}
+
+	footer{
+		width: 100%;
+	}
+
+
+
+}
+
+@media screen and (min-width: 48em) and (max-width: 60em){
+
+	.mainHeader{
+		width: 100%;
+		background-color: black;
+	}
+
+	.mainContent{
+		width: 100%;
+	}
+
+	.firstSide{
+		width: 100%;
+
+	}
+
+	.secondSide{
+		width: 100%;
+
+	}
+
+	footer{
+		width: 100%;
+	}
+
+
+
+}
+
+@media screen and (max-width: 60em){
+
+	.mainHeader{
+		width: 100%;
+		background-color: black;
+	}
+
+	.mainContent{
+		width: 100%;
+	}
+
+	.firstSide{
+		width: 100%;
+
+	}
+
+	.secondSide{
+		width: 100%;
+
+	}
+
+	footer{
+		width: 100%;
+	}
+}
